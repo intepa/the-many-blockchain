@@ -64,7 +64,11 @@ const Navbar = ({ web3api, account, balances }) => {
               </div>
             </Link>
 
-            <a className="button is-black is-outlined ml-3">
+            <a
+              className="button is-black is-outlined ml-3"
+              target={"_blank"}
+              href="https://github.com/intepa/the-many-blockchain"
+            >
               <FontAwesomeIcon icon={faGithub} /> &nbsp; GitHub
             </a>
           </div>
