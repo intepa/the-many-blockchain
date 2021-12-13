@@ -28,7 +28,7 @@ const Whitelist = ({ web3api, account }) => {
 
   const requestWhitelist = async () => {
     setWhitelistLoading(true);
-    const baseURL = "http://localhost:8000/whitelist/";
+    const baseURL = "https://the-many-api.herokuapp.com/whitelist/";
     const res = await axios.post(baseURL + account);
     setApiResponse(res.data.response);
     setWhitelistLoading(false);
