@@ -283,7 +283,7 @@ const App = () => {
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href="https://docs.metamask.io"
+                  href="https://metamask.io/download.html"
                 >
                   Install Metamask
                 </a>

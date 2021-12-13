@@ -1,7 +1,16 @@
 const HDWalletProvider = require("@truffle/hdwallet-provider");
 const fs = require("fs");
-const mnemonic = fs.readFileSync(".secret").toString().trim();
-const appID = fs.readFileSync(".appID").toString().trim();
+
+let mnemonic;
+let appID;
+
+try {
+  mnemonic = fs.readFileSync(".secret").toString().trim();
+  appID = fs.readFileSync(".appID").toString().trim();
+} catch {
+  mnemonic = "";
+  appID = "";
+}
 
 module.exports = {
   contracts_build_directory: "./public/contracts",
