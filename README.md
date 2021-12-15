@@ -9,20 +9,28 @@ This project is a proof-of-concept blockchain implementation of the Danish prope
 2. Create an account and grab some test MATIC from the [Polygon faucet](https://faucet.polygon.technology/)
 3. Make sure to [whitelist](https://the-many-blockchain.dk/whitelist) your account (request should only take a few seconds)
    
-<img src="https://i.ibb.co/5npfk4j/Screenshot-2021-12-15-at-09-23-52.png" alt="drawing" width="250"/>\
+<img src="https://i.ibb.co/5npfk4j/Screenshot-2021-12-15-at-09-23-52.png" alt="drawing" width="250"/>
+
+<br/>
 
 4. Then [get some TMY tokens](https://the-many-blockchain.dk/contracts) 
 
-<img src="https://i.ibb.co/qphCWqR/Screenshot-2021-12-15-at-09-20-43.png" alt="drawing" width="350"/>\
+<img src="https://i.ibb.co/qphCWqR/Screenshot-2021-12-15-at-09-20-43.png" alt="drawing" width="350"/>
+
+<br/>
 
 ### **You are now ready to invest!**
-<img src="https://i.ibb.co/ZzFkY5R/Screenshot-2021-12-15-at-09-48-42.png" alt="drawing" width="140"/>\
+<img src="https://i.ibb.co/ZzFkY5R/Screenshot-2021-12-15-at-09-48-42.png" alt="drawing" width="140"/>
+
+<br/>
 
 5. Go ahead and place your first order in the 'Nordvest' project
 
-<img src="https://i.ibb.co/p1bPrSM/Screenshot-2021-12-15-at-09-31-56.png" alt="drawing" width="350"/>\
+<img src="https://i.ibb.co/p1bPrSM/Screenshot-2021-12-15-at-09-31-56.png" alt="drawing" width="350"/>
 
-6. Head over to the [Portfolio]() page and click the button to execute the order
+<br/>
+
+6. Head over to the [Portfolio](https://the-many-blockchain.dk/portfolio) page and click the button to execute the order
 
 <img src="https://i.ibb.co/TWnj9Px/Screenshot-2021-12-15-at-09-34-59.png" alt="drawing"/>
 
@@ -52,7 +60,7 @@ This project is a proof-of-concept blockchain implementation of the Danish prope
 5)  Open your browser and make sure you have [Metamask](https://metamask.io/download.html) installed
 6)  Add Ganache network to Metamask using `http://127.0.0.1:7545` and chain-ID `1337`
 7)  Run `npm start` to start the development server
-8)  Import some of the accounts from Ganache to Metamask (using their primary keys) to interact with the various smart contracts
+8)  Import some of the accounts from Ganache to Metamask (using their private keys) to interact with the various smart contracts
 
 ---
 
