@@ -5,7 +5,7 @@ This project is a proof-of-concept blockchain implementation of the Danish prope
 
 
 ## Test out the [live demo](https://the-many-blockchain.dk/) 
-1. Make sure to have [Metamask](https://metamask.io/download.html) installed
+1. Make sure to have [Metamask](https://metamask.io/download.html) installed and [connected to the Matic Mumbai-testnet](https://docs.polygon.technology/docs/develop/metamask/config-polygon-on-metamask/)
 2. Create an account and grab some test MATIC from the [Polygon faucet](https://faucet.polygon.technology/)
 3. Make sure to [whitelist](https://the-many-blockchain.dk/whitelist) your account (request should only take a few seconds)
    
