@@ -1,14 +1,47 @@
 # The Many Blockchain
 This project is a proof-of-concept blockchain implementation of the Danish property crowdfunding platform [The Many](https://the-many.com/dk). The project comprises of three smart contracts deployed to the [Polygon's](https://polygon.technology/) Mumbai test network and a basic React application for interacting with the smart contracts.
 
-## [View live demo](https://the-many-blockchain.dk/)
+---
 
-| Contract          | Description                   | Address                             |
+
+## Test out the [live demo](https://the-many-blockchain.dk/) 
+1. Make sure to have [Metamask](https://metamask.io/download.html) installed
+2. Create an account and grab some test MATIC from the [Polygon faucet](https://faucet.polygon.technology/)
+3. Make sure to [whitelist](https://the-many-blockchain.dk/whitelist) your account (request should only take a few seconds)
+   
+<img src="https://i.ibb.co/5npfk4j/Screenshot-2021-12-15-at-09-23-52.png" alt="drawing" width="250"/>\
+
+4. Then [get some TMY tokens](https://the-many-blockchain.dk/contracts) 
+
+<img src="https://i.ibb.co/qphCWqR/Screenshot-2021-12-15-at-09-20-43.png" alt="drawing" width="350"/>\
+
+### **You are now ready to invest!**
+<img src="https://i.ibb.co/ZzFkY5R/Screenshot-2021-12-15-at-09-48-42.png" alt="drawing" width="140"/>\
+
+5. Go ahead and place your first order in the 'Nordvest' project
+
+<img src="https://i.ibb.co/p1bPrSM/Screenshot-2021-12-15-at-09-31-56.png" alt="drawing" width="350"/>\
+
+6. Head over to the [Portfolio]() page and click the button to execute the order
+
+<img src="https://i.ibb.co/TWnj9Px/Screenshot-2021-12-15-at-09-34-59.png" alt="drawing"/>
+
+<br/>
+
+### **Congratulations! You are now officially an investor in the project!**
+
+<img src="https://i.ibb.co/ftTdbLk/Screenshot-2021-12-15-at-09-35-32.png" alt="drawing" width="300"/>
+
+-----
+## Smart contracts
+
+| Name          | Description                   | Address                             |
 | ----------------- | ----------------------------- |------------------------------------ |
 | TMY               | The platforms own currency token       |[0x3FC8CeeF43Ecd4575E8A8F31bEf5a4c6Aee40c9f](https://mumbai.polygonscan.com/address/0x3FC8CeeF43Ecd4575E8A8F31bEf5a4c6Aee40c9f)        |
 | RegulatorService  | Inspired by the [R-token standard](https://harbor.com/rtokenwhitepaper.pdf) by Harbor this contract enables compliance with KYC/AML requirements        |[0x91D3E99445Cbf73eE2dEa4E647Ddf58ca16fdf9e](https://mumbai.polygonscan.com/address/0x91D3E99445Cbf73eE2dEa4E647Ddf58ca16fdf9e)        |
 | Project   | An example of a property investment project contract. This type of contract is deployed with every property investment project offered on the platform.        |[0x2ee85Ad6289BB001b4fea8889A1dc73f64c278ef](https://mumbai.polygonscan.com/address/0x2ee85Ad6289BB001b4fea8889A1dc73f64c278ef)        |
 
+----
 
 ## To test out this project in your own local environment:
 
